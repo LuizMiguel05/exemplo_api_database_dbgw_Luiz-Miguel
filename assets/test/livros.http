@@ -1,1 +1,19 @@
-GET https://8080-amaranth-armadillo-t0la720f.ws-us18.gitpod.io/filmes/3
+GET https://8080-pink-crane-0lbn29ks.ws-us18.gitpod.io/filmes
+
+###
+
+POST https://8080-pink-crane-0lbn29ks.ws-us18.gitpod.io/filmes
+Content-Type: application/json
+
+{
+    "titulo" : "Exemplo"
+}
+
+###
+
+PUT https://8080-pink-crane-0lbn29ks.ws-us18.gitpod.io/filmes/5
+Content-Type: application/json
+
+{
+    "titulo" : "GhostBusters"
+}

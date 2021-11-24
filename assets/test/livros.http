@@ -1,8 +1,11 @@
-GET https://8080-pink-crane-0lbn29ks.ws-us18.gitpod.io/filmes
+@url = https://8080-sapphire-mosquito-im81ejnr.ws-us17.gitpod.io
+
+
+GET {{url}}/filmes
 
 ###
 
-POST https://8080-pink-crane-0lbn29ks.ws-us18.gitpod.io/filmes
+POST https://8080-sapphire-mosquito-im81ejnr.ws-us17.gitpod.io/filmes
 Content-Type: application/json
 
 {
@@ -10,10 +13,9 @@ Content-Type: application/json
 }
 
 ###
-
-PUT https://8080-pink-crane-0lbn29ks.ws-us18.gitpod.io/filmes/5
+PUT {{url}}/filmes/5
 Content-Type: application/json
 
 {
-    "titulo" : "GhostBusters"
+    "titulo" : "Ghostbusters"
 }

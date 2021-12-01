@@ -1,4 +1,4 @@
-@url = https://8080-sapphire-mosquito-im81ejnr.ws-us17.gitpod.io
+@url = https://8080-turquoise-urial-g6oxol2z.ws-us20.gitpod.io
 
 
 GET {{url}}/filmes
@@ -18,4 +18,13 @@ Content-Type: application/json
 
 {
     "titulo" : "Ghostbusters"
+}
+
+###
+
+DELETE {{url}}/filmes
+Content-Type: application/json
+
+{
+    "id" : 5
 }
